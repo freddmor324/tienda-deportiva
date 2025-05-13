@@ -25,4 +25,20 @@ p {
 .c-principal__articles {
   text-align: center;
   margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.c-principal__articles article {
+  text-align: center;
+  max-width: 300px;
+}
+
+.c-principal__articles img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
