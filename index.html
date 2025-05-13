@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- page title-->
     <title>Altos Sport</title>
+    <meta name="description" content="Altos Sport - Tu tienda deportiva para equiparte con lo mejor en ropa, calzado y accesorios deportivos. Encuentra todo lo que necesitas para alcanzar tus metas.">
+    <meta name="keywords" content="deportes, ropa deportiva, calzado deportivo, accesorios deportivos, Altos Sport, tienda deportiva, hombre, mujer, fitness, natación, raquetas, zapatillas">
 </head>
 <body>
     <div class="grid-container">
@@ -36,37 +38,46 @@
                 </div>
                 <div class="container-fluid">
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="./pages/ingreso.html">Ingreso</a></li>
-                        <li class="nav-item"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                        <li class="nav-item"><a class="nav-link btn-ingreso" href="./pages/ingreso.html">Ingreso</a></li>
+                        <li class="nav-item"><a class="nav-link btn-carrito" href="./pages/carrito.html">Carrito</a></li>
+                        <li class="nav-item"><a class="nav-link btn-inicio" href="./index.html">Inicio</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
         <aside class="c-aside">
             <div>
-                <h1>Equípate para el Éxito</h1>
+                <h1>Equípate para el Éxito en Deportes</h1>
                 <p>En Altos Sport tenemos todo lo que necesitas para que puedas alcanzar tus metas</p>
             </div>
         </aside>
         <main class="c-principal">
-            <div class="c-principal__articles">
-                <img src="./assets/deportes.png" alt="Deporte">
-                <a href="./pages/deportes.html" class="btn btn-primary">Deporte</a>
-            </div>
-            <div class="c-principal__articles">
-                <img src="./assets/mujer.png" alt="Mujer">
-                <a href="./pages/mujer.html" class="btn btn-primary">Mujer</a>
-            </div>
-            <div class="c-principal__articles">
-                <img src="./assets/hombre.png" alt="Hombre">
-                <a href="./pages/hombre.html" class="btn btn-primary">Hombre</a>
-            </div>
+            <section class="c-principal__articles">
+                <article>
+                    <img src="./assets/deportes.png" alt="Deporte">
+                    <h2>Ropa y Accesorios Deportivos para Deporte</h2>
+                    <a href="./pages/deportes.html" class="btn btn-primary">Explorar</a>
+                    <a href="./pages/comprar.html" class="btn btn-carrito">Comprar</a>
+                </article>
+                <article>
+                    <img src="./assets/mujer.png" alt="Mujer">
+                    <h2>Moda Deportiva para Mujer</h2>
+                    <a href="./pages/mujer.html" class="btn btn-primary">Explorar</a>
+                    <a href="./pages/comprar.html" class="btn btn-carrito">Comprar</a>
+                </article>
+                <article>
+                    <img src="./assets/hombre.png" alt="Hombre">
+                    <h2>Moda Deportiva para Hombre</h2>
+                    <a href="./pages/hombre.html" class="btn btn-primary">Explorar</a>
+                    <a href="./pages/comprar.html" class="btn btn-carrito">Comprar</a>
+                </article>
+            </section>
         </main>
         <footer class="c-footer">
             <div>
                 <img src="./assets/altos-sport.png" alt="Altos Sport Logo" class="logo">
                 <p>Altos Sport</p>
-                <p>2025</p>
+                <p>&copy; 2025</p>
             </div>
         </footer>
     </div>
