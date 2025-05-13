@@ -1,0 +1,28 @@
+h1 {
+  font-size: 4em;
+  margin: 2em;
+}
+
+p {
+  font-size: 1.5em;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.c-aside {
+  grid-area: aside;
+  text-align: center;
+  padding: 20px;
+}
+
+.c-principal {
+  grid-area: principal;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.c-principal__articles {
+  text-align: center;
+  margin: 10px;
+}
