@@ -5,14 +5,15 @@
   font-size: 10px;
 }
 
-// Updated color palette for a friendlier look
-$primary-color: #4CAF50; // Green for primary buttons
-$secondary-color: #FFC107; // Yellow for secondary buttons
-$tertiary-color: #03A9F4; // Blue for tertiary buttons
-$hover-primary: #45A049; // Darker green for hover effect
-$hover-secondary: #FFB300; // Darker yellow for hover effect
-$hover-tertiary: #0288D1; // Darker blue for hover effect
-$text-color: #FFFFFF; // White text for contrast
-$background-color: #F5F5F5; // Light gray for background
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
 
-// Removed all button styles except for hombre, mujer, and deporte
+.btn-primary:hover {
+  background-color: #0056b3;
+}
