@@ -1,0 +1,10 @@
+@mixin responsive($max-width, $background-color) {
+  @media (max-width: $max-width) {
+    .grid-container {
+      background-color: $background-color;
+    }
+  }
+}
+
+@include responsive(768px, chocolate);
+@include responsive(480px, rgb(13, 53, 133));

@@ -1,0 +1,18 @@
+$grid-template-areas: (
+  "header header header",
+  "aside aside aside",
+  "principal principal principal",
+  "footer footer footer"
+);
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "aside aside aside"
+    "principal principal principal"
+    "footer footer footer";
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 20px;
+}
