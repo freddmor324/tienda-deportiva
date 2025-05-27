@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Altos Sport</title>
+    <title>Altos Sport | Tienda de Artículos Deportivos | Ropa y Calzado</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <!-- Manifest for PWA -->
+    <link rel="manifest" href="./manifest.json">
+    <meta name="theme-color" content="#ff5722">
     <!-- custom styles-->
     <link rel="stylesheet" href="./css/style.css">
-    <!-- page title-->
-    <title>Altos Sport</title>
-    <meta name="description" content="Altos Sport - Tu tienda deportiva para equiparte con lo mejor en ropa, calzado y accesorios deportivos. Encuentra todo lo que necesitas para alcanzar tus metas.">
-    <meta name="keywords" content="deportes, ropa deportiva, calzado deportivo, accesorios deportivos, Altos Sport, tienda deportiva, hombre, mujer, fitness, natación, raquetas, zapatillas">
+    <meta name="description" content="Altos Sport - Tienda de artículos deportivos con la mejor selección de ropa, calzado y accesorios deportivos para hombres y mujeres. Equipamiento de alta calidad para todas tus actividades deportivas con envíos a todo el país.">
+    <meta name="keywords" content="tienda deportiva, ropa deportiva, calzado deportivo, accesorios deportivos, Altos Sport, artículos fitness, moda deportiva hombre, moda deportiva mujer, zapatillas running, equipamiento deportivo, deporte, entrenamiento">
 </head>
 <body>
     <div class="grid-container">
         <header class="c-header">
             <nav class="navbar navbar-expand-lg c-bg-color">
                 <div class="container">
-                    <a class="navbar-brand" href="#">
-                      <img src="./assets/altos-sport.png" alt="Altos Sport Logo" width="150" height="120">
+                    <a class="navbar-brand" href="./index.html" title="Altos Sport - Tienda de artículos deportivos">
+                      <img src="./assets/altos-sport.png" alt="Altos Sport Logo - Tienda de artículos deportivos" width="150" height="120">
                     </a>
                 </div>
                 <div class="container-fluid">
@@ -47,38 +51,160 @@
         </header>
         <aside class="c-aside">
             <div>
-                <h1>Equípate para el Éxito en Deportes</h1>
-                <p>En Altos Sport tenemos todo lo que necesitas para que puedas alcanzar tus metas</p>
+                <h1>Altos Sport - Equípate para el Éxito Deportivo</h1>
+                <p>Tu tienda especializada en equipamiento deportivo de alta calidad</p>
+                <h2>En Altos Sport tenemos todo lo que necesitas para alcanzar tus metas</h2>
             </div>
         </aside>
         <main class="c-principal">
             <section class="c-principal__articles">
+                <h2>Nuestras Categorías de Productos</h2>
                 <article>
-                    <img src="./assets/deportes.png" alt="Deporte">
-                    <h2>Ropa y Accesorios Deportivos para Deporte</h2>
-                    <a href="./pages/deportes.html" class="btn btn-primary">Explorar</a>
+                    <img src="./assets/deportes.png" alt="Artículos para diferentes disciplinas deportivas - Altos Sport">
+                    <h3>Equipamiento Deportivo Especializado</h3>
+                    <p>Encuentra accesorios y equipos para diferentes disciplinas deportivas</p>
+                    <a href="./pages/deportes.html" class="btn btn-primary">Explorar Productos</a>
                 </article>
                 <article>
-                    <img src="./assets/mujer.png" alt="Mujer">
-                    <h2>Moda Deportiva para Mujer</h2>
-                    <a href="./pages/mujer.html" class="btn btn-primary">Explorar</a>
+                    <img src="./assets/mujer.png" alt="Colección deportiva para mujeres - Altos Sport">
+                    <h3>Moda Deportiva para Mujer</h3>
+                    <p>Conjuntos, calzado y accesorios deportivos femeninos de máxima calidad</p>
+                    <a href="./pages/mujer.html" class="btn btn-primary">Ver Colección</a>
                 </article>
                 <article>
-                    <img src="./assets/hombre.png" alt="Hombre">
-                    <h2>Moda Deportiva para Hombre</h2>
-                    <a href="./pages/hombre.html" class="btn btn-primary">Explorar</a>
+                    <img src="./assets/hombre.png" alt="Colección deportiva para hombres - Altos Sport">
+                    <h3>Moda Deportiva para Hombre</h3>
+                    <p>Descubre nuestra línea completa de ropa y calzado deportivo masculino</p>
+                    <a href="./pages/hombre.html" class="btn btn-primary">Ver Colección</a>
                 </article>
+            </section>
+            
+            <section class="featured-products">
+                <h2>Productos Destacados</h2>
+                <div class="c-principal__articles">
+                    <article>
+                        <img src="./assets/raqueta.png" alt="Raquetas de tenis profesionales - Altos Sport">
+                        <h3>Raquetas Profesionales</h3>
+                        <p>Raquetas de tenis de alta calidad para jugadores profesionales</p>
+                        <p class="product-price">Desde $85.00</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </article>
+                    <article>
+                        <img src="./assets/natacion.jpg" alt="Accesorios de natación - Altos Sport">
+                        <h3>Accesorios de Natación</h3>
+                        <p>Todo lo que necesitas para tu entrenamiento en la piscina</p>
+                        <p class="product-price">Desde $25.00</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </article>
+                    <article>
+                        <img src="./assets/mancuernas.png" alt="Equipo de entrenamiento con pesas - Altos Sport">
+                        <h3>Equipamiento para Gimnasio</h3>
+                        <p>Mancuernas y pesas para tu entrenamiento de fuerza</p>
+                        <p class="product-price">Desde $45.00</p>
+                        <a href="#" class="btn btn-primary">Ver Detalles</a>
+                    </article>
+                </div>
+            </section>
+            
+            <section class="testimonials">
+                <h2>Opiniones de Nuestros Clientes</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial">
+                        <blockquote>
+                            "Excelente calidad en todos los productos deportivos. Los conjuntos para running son increíblemente cómodos y las zapatillas tienen una gran amortiguación. ¡Recomendado al 100%!"
+                        </blockquote>
+                        <p class="testimonial-author">Carlos M. - Atleta amateur</p>
+                    </div>
+                    <div class="testimonial">
+                        <blockquote>
+                            "Mi experiencia con Altos Sport ha sido fantástica. La ropa deportiva femenina es de gran calidad y el envío fue muy rápido. Volveré a comprar sin duda."
+                        </blockquote>
+                        <p class="testimonial-author">María L. - Entrenadora personal</p>
+                    </div>
+                    <div class="testimonial">
+                        <blockquote>
+                            "Increíble relación calidad-precio. He comprado varias veces en Altos Sport y siempre quedo satisfecho con sus productos y su servicio al cliente."
+                        </blockquote>
+                        <p class="testimonial-author">Juan D. - Deportista habitual</p>
+                    </div>
+                </div>
             </section>
         </main>
         <footer class="c-footer">
             <div>
-                <img src="./assets/altos-sport.png" alt="Altos Sport Logo" class="logo">
-                <p>Altos Sport</p>
-                <p>&copy; 2025</p>
+                <img src="./assets/altos-sport.png" alt="Altos Sport Logo - Tienda de artículos deportivos" class="logo">
+                <h4>Altos Sport - Tu Mejor Opción en Equipamiento Deportivo</h4>
+                <div class="footer-info">
+                    <p>Contacto: info@altossport.com</p>
+                    <p>Envíos a todo el país</p>
+                    <p>Síguenos en nuestras redes sociales</p>
+                    <p>&copy; Altos Sport 2025 - Todos los derechos reservados</p>
+                </div>
             </div>
         </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js" integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+" crossorigin="anonymous"></script>
+    
+    <!-- Structured data for SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SportsGoodsStore",
+      "name": "Altos Sport",
+      "image": "./assets/altos-sport.png",
+      "url": "https://altossport.com",
+      "telephone": "+123456789",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Av. Deportiva 123",
+        "addressLocality": "Ciudad Deportiva",
+        "addressRegion": "CD",
+        "postalCode": "12345",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "40.7128",
+        "longitude": "-74.0060"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "10:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "$$",
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "USD",
+        "lowPrice": "1.00",
+        "highPrice": "85.00",
+        "offerCount": "100+"
+      },
+      "department": [
+        {
+          "@type": "Department",
+          "name": "Ropa Deportiva para Hombre"
+        },
+        {
+          "@type": "Department",
+          "name": "Ropa Deportiva para Mujer"
+        },
+        {
+          "@type": "Department",
+          "name": "Equipamiento Deportivo"
+        }
+      ]
+    }
+    </script>
 </body>
 </html>
