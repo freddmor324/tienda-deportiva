@@ -18,10 +18,9 @@
     <!-- custom styles-->
     <link rel="stylesheet" href="../css/style.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="../css/style.css"></noscript>
-    <title>Moda Deportiva para Hombre | Conjuntos y Calzado | Altos Sport</title>
-    <meta name="description" content="Descubre nuestra exclusiva colección de ropa y calzado deportivo para hombre. Conjuntos deportivos, zapatillas de running y accesorios de alta calidad con los mejores precios del mercado.">
-    <meta name="keywords" content="ropa deportiva hombre, conjuntos deportivos masculinos, zapatillas deportivas hombre, moda fitness hombre, calzado deportivo masculino, Altos Sport hombre">
-   
+    <title>Iniciar Sesión o Registrarse | Mi Cuenta | Altos Sport</title>
+    <meta name="description" content="Inicia sesión en tu cuenta de Altos Sport o crea una nueva para acceder a descuentos exclusivos, seguimiento de pedidos y una experiencia de compra más personalizada.">
+    <meta name="keywords" content="iniciar sesión, crear cuenta, registro, acceso cliente, login, cuenta usuario, Altos Sport">
 </head>
 <body>
     <div class="grid-container">
@@ -53,68 +52,83 @@
         </header>
         <aside class="c-aside">
             <div>
-                <h1>Colección Deportiva para Hombre</h1>
-                <h2>La mejor selección de ropa y calzado deportivo masculino</h2>
+                <h1>Mi Cuenta en Altos Sport</h1>
+                <h2>Inicia sesión o regístrate para obtener beneficios exclusivos</h2>
             </div>
         </aside>
         <main class="c-principal">
-            <section>
-                <h2>Conjuntos Deportivos para Hombre</h2>
-                <div class="c-principal__articles">
-                    <article>
-                        <img src="../assets/conjunto-hombre.png" alt="Conjunto deportivo masculino para entrenamiento - Altos Sport" width="227" height="222" loading="lazy">
-                        <h3>Conjunto Deportivo Premium</h3>
-                        <p>Precio: $4.00</p>
-                        <p>Conjunto deportivo de alta calidad para entrenamiento y running</p>
-                        <button class="btn btn-carrito">Añadir al Carrito</button>
-                    </article>
-                    <article>
-                        <img src="../assets/conjunto-hombre-2.png" alt="Conjunto deportivo técnico para hombre - Altos Sport" width="194" height="259" loading="lazy">
-                        <h3>Conjunto Técnico Pro</h3>
-                        <p>Precio: $7.00</p>
-                        <p>Fabricado con tejidos transpirables de última generación</p>
-                        <button class="btn btn-carrito">Añadir al Carrito</button>
-                    </article>
-                    <article>
-                        <img src="../assets/conjunto-hombre-3.png" alt="Conjunto deportivo ligero para hombre - Altos Sport" width="225" height="225" loading="lazy">
-                        <h3>Conjunto Ligero Essential</h3>
-                        <p>Precio: $2.00</p>
-                        <p>Ideal para actividades deportivas en temporada de calor</p>
-                        <button class="btn btn-carrito">Añadir al Carrito</button>
-                    </article>
+            <section class="auth-section">
+                <div class="login-register-container">
+                    <div class="login-form">
+                        <h2>Iniciar Sesión</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="email">Correo electrónico</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Contraseña</label>
+                                <input type="password" id="password" name="password" class="form-control" required>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="remember" name="remember" class="form-check-input">
+                                <label for="remember" class="form-check-label">Recordar mis datos</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                            <p class="forgot-password"><a href="#">¿Olvidaste tu contraseña?</a></p>
+                        </form>
+                    </div>
+                    
+                    <div class="register-form">
+                        <h2>Crear Nueva Cuenta</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Nombre completo</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-email">Correo electrónico</label>
+                                <input type="email" id="reg-email" name="email" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reg-password">Contraseña</label>
+                                <input type="password" id="reg-password" name="password" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="confirm-password">Confirmar contraseña</label>
+                                <input type="password" id="confirm-password" name="confirm-password" class="form-control" required>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="terms" name="terms" class="form-check-input" required>
+                                <label for="terms" class="form-check-label">Acepto los términos y condiciones</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Crear Cuenta</button>
+                        </form>
+                    </div>
                 </div>
             </section>
             
-            <section>
-                <h2>Calzado Deportivo para Hombre</h2>
+            <section class="benefits-section">
+                <h2>Beneficios de Registrarte</h2>
                 <div class="c-principal__articles">
                     <article>
-                        <img src="../assets/zapato-hombre.png" alt="Zapatillas deportivas para hombre - Altos Sport" width="225" height="225" loading="lazy">
-                        <h3>Zapatillas Running Control</h3>
-                        <p>Precio: $6.00</p>
-                        <p>Máxima amortiguación para carreras de larga distancia</p>
-                        <button class="btn btn-carrito">Añadir al Carrito</button>
+                        <h3>Compras más Rápidas</h3>
+                        <p>Guarda tus datos para agilizar el proceso de checkout en futuras compras</p>
                     </article>
                     <article>
-                        <img src="../assets/zapato-hombre-1.png" alt="Zapatillas deportivas urbanas para hombre - Altos Sport" width="283" height="178" loading="lazy">
-                        <h3>Zapatillas Urban Sport</h3>
-                        <p>Precio: $1.00</p>
-                        <p>Diseño urbano con tecnología deportiva integrada</p>
-                        <button class="btn btn-carrito">Añadir al Carrito</button>
+                        <h3>Seguimiento de Pedidos</h3>
+                        <p>Controla el estado de tus pedidos y revisa tu historial de compras</p>
                     </article>
-                    <article>             
-                        <img src="../assets/zapato-hombre-2.png" alt="Zapatillas deportivas para gimnasio - Altos Sport" width="318" height="159" loading="lazy">
-                        <h3>Zapatillas Training Pro</h3>
-                        <p>Precio: $1.50</p>
-                        <p>Especializadas para entrenamiento en gimnasio</p>
-                        <button class="btn btn-carrito">Añadir al Carrito</button>
+                    <article>
+                        <h3>Ofertas Exclusivas</h3>
+                        <p>Recibe notificaciones sobre promociones especiales y descuentos para usuarios registrados</p>
                     </article>
                 </div>
             </section>
         </main>
         <footer class="c-footer">
             <div>
-                <img src="../assets/altos-sport.png" alt="Altos Sport Logo - Tienda de artículos deportivos" class="logo" width="150" height="120" loading="lazy">
+                <img src="../assets/altos-sport.png" alt="Altos Sport Logo - Tienda de artículos deportivos" class="logo">
                 <h4>Altos Sport - Tu Mejor Opción en Equipamiento Deportivo</h4>
                 <div class="footer-info">
                     <p>Contacto: info@altossport.com</p>
