@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /css/
-Disallow: /scss/
-
-Sitemap: https://altossport.com/sitemap.xml
